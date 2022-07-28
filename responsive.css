@@ -22,4 +22,33 @@
         padding: auto;
         float: none;
       }
+
+      /*
+      FOOTER
+      */
+        .container-footer {
+            width: 100%;
+            text-align: center;
+        }
+
+        .about {
+            width: 100%;
+            text-align: center;
+        }
+
+        .medsos {
+            width: 100%;
+            text-align: center;
+            padding-top: 45px;
+        }
+
+        .address {
+            width: 100%;
+            display: none;
+        }
+
+        .medsos-icons {
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
 }

@@ -122,3 +122,141 @@
   padding: 0 auto;
   margin: 0 auto;
 }
+
+/*
+CSS FOOTER
+*/
+
+footer {
+  padding-top: 50px;
+}
+
+.container-footer {
+  background-color: #2ec4b6ff;
+  bottom: 0;  
+  width: 100%;
+  margin: auto;
+  padding: 35px;
+}
+
+.copyright {
+  background-color: #2ec4b6ff;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-weight: lighter;
+}
+
+.about {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about h3 {
+  color: white;
+  font-size: 36px;
+  margin: 0;  
+}
+
+.about p {
+  color: white;
+}
+
+.address {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.address p {
+  color: white;
+  font-weight:600;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.address li {
+  list-style: none;  
+  color: white;
+  margin-left: 20px;
+}
+
+.address i {
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 25%;
+  text-align: center;
+  line-height: 35px;  
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.medsos {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.medsos-title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.medsos p {
+  color: white;
+}
+
+.social-icon {
+  margin-top: 45px;
+}
+
+.social-icon i {
+  padding: 12px 12px;
+  border-radius: 5px;
+  align-items: center;
+  color: white;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-facebook:hover {
+  background-color: #3b5998;
+  color: white;
+  transition: all 0.5s;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-twitter:hover {
+  background-color: #00acee;
+  color: white;
+  transition: all 0.5s;
+}
+
+.fa-instagram {
+  color: #dd2a7b;
+}
+
+.fa-instagram:hover {
+  background-color: #dd2a7b;
+  color: white;
+  transition: all 0.5s;
+}
+
+.fa-youtube {
+  color: #c4302b;
+}
+
+.fa-youtube:hover {
+  background-color: #c4302b;
+  color: white;
+  transition: all 0.5s;
+}
+
+
