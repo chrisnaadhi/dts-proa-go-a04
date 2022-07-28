@@ -13,6 +13,14 @@
   --tiffany-blue: #2ec4b6ff;
 }
 
+.logo-icon {
+  float: left;
+  color: white;
+  line-height: 50px;
+  font-size: 25px;
+  padding-left: 15px;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #2ec4b6ff;
@@ -32,6 +40,11 @@
 .dropdown {
   float: left;
   overflow: hidden;
+}
+
+.header-nav {
+  float: right;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dropdown .dropbtn {
