@@ -3,7 +3,9 @@
 Proyek tim A04 DTS PROA Golang 2022.
 
 Toko Buku Fiktif : Booky Store for Geeky
-[Booky Store](https://chrisnaadhi.github.io/dts-proa-go-a04/)
+
+
+[https://chrisnaadhi.github.io/dts-proa-go-a04/](https://chrisnaadhi.github.io/dts-proa-go-a04/)
 
 Dibangun oleh tim A04 :
 -
