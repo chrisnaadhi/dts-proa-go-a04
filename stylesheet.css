@@ -60,7 +60,7 @@
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: var(--orange-peel);
 }
 
 .dropdown-content {
@@ -69,7 +69,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 5;
 }
 
 .dropdown-content a {
@@ -142,7 +142,7 @@
   z-index: 0;
 }
 
-.content {
+.hero-content {
   position: absolute;
   width: 100%;
   z-index: 3;
@@ -150,16 +150,16 @@
   padding: 7rem 0;
 }
 
-.content h1 {
+.hero-content h1 {
   color: var(--mellow-apricot);
   font-size: 3rem;
 }
 
-.content h1:nth-child(1) {
+.hero-content h1:nth-child(1) {
   font-size: 8rem;
 }
 
-.content p {
+.hero-content p {
   color: var(--white);
   font-size: 1.2rem;
 }
@@ -173,9 +173,10 @@
 .btn {
   padding: 12px 24px;
   margin: 1rem;
+  border-radius: 4px;
   color: var(--white);
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .btn:hover {
@@ -212,6 +213,39 @@
   background-color: var(--tiffany-blue);
   color: var(--white);
   transition: all 0.5s;
+}
+
+.sub-content {
+  padding: 3rem 0 5rem 0;
+  text-align: center;
+  background-color: var(--tiffany-blue);
+}
+
+.heading-content h2 {
+  font-size: 40px;
+  padding: 1rem 0;
+  color: var(--mellow-apricot);
+}
+
+.description-sub-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-sub-content p {
+  font-size: 24px;
+  padding: 0 1.5rem;
+  color: var(--white);
+  max-width: 900px;
+}
+
+.btn-tentang {
+  margin-top: 2rem;
+}
+
+.btn-tentang a {
+  color: var(--white);
 }
 
 /* Katalog */

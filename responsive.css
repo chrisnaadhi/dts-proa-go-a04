@@ -28,11 +28,19 @@
   }
 
   /* Main Content */
-  .content h1 {
+  .main-content {
+    height: 30rem;
+  }
+
+  .banner {
+    height: 30rem;
+  }
+
+  .hero-content h1 {
     font-size: 1.5rem;
   }
 
-  .content h1:nth-child(1) {
+  .hero-content h1:nth-child(1) {
     font-size: 5rem;
   }
 
