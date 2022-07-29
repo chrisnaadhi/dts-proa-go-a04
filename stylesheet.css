@@ -248,6 +248,10 @@
   color: var(--white);
 }
 
+.fa-user-plus {
+  color: var(--mellow-apricot);
+}
+
 /* Katalog */
 .katalog {
   height: 850px;
