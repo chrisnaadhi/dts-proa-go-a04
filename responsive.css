@@ -1,28 +1,11 @@
 @media screen and (max-width: 1000px) {
-  .katalog {
-    width: 100%;
-    margin: auto;
-    height: fit-content;
-  }
-
-  .konten-katalog {
-    width: 40%;
-  }
-
-  .pesan-buku {
-    width: 50%;
-    font-size: 17px;
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 640px) {
   .navbar .search-container {
     float: none;
   }
-
-  .navbar input[type=text],
-  .navbar .search-container button,
+  .navbar input[type="text"],
   .logo-icon {
     float: none;
     display: block;
@@ -31,16 +14,26 @@
     margin: 0;
     padding: 14px;
   }
-
-  .navbar input[type=text] {
+  .navbar .search-container button {
+    display: none;
+  }
+  .navbar input[type="text"] {
     border: 1px solid #ccc;
   }
-
   .header-nav {
     display: block;
     margin: 0;
     padding: auto;
     float: none;
+  }
+
+  /* Main Content */
+  .content h1 {
+    font-size: 1.5rem;
+  }
+
+  .content h1:nth-child(1) {
+    font-size: 5rem;
   }
 
   /* Katalog */
@@ -67,7 +60,6 @@
     width: auto;
     padding: 5px 50px;
   }
-
 
   /*
       FOOTER
