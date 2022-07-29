@@ -126,30 +126,30 @@
 
 
 /* Katalog */
-.menu-content {
+.katalog {
   height: 850px;
   background-color: white;
   text-align: center;
 }
 
-.heading-menu {
+.heading-katalog {
   padding-top: 30px;
   padding-bottom: 20px;
   color: #5f5d60;
 }
 
-.text-menu {
+.text-katalog {
   font-size: 40px;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
 
-.sub-text-menu {
+.sub-text-katalog {
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
 }
 
-.konten-menu {
+.konten-katalog {
   display: inline-block;
   width: 20%;
   height: 660px;
@@ -159,11 +159,11 @@
   margin: 10px 10px;
 }
 
-.konten-menu:hover {
+.konten-katalog:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.konten-menu img {
+.konten-katalog img {
   padding: 20px 0;
   width: 90%;
   max-height: 450px;
@@ -188,13 +188,13 @@
   height: 90px;
 }
 
-.harga-menu {
+.harga-buku {
   font-family: 'Roboto', sans-serif;
   padding: 15px 5px;
   text-align: center;
 }
 
-.pesan-menu {
+.pesan-buku {
   color: white;
   background-color: #2ec4b6;
   padding: 6px 12px;
@@ -205,7 +205,7 @@
   border-top-right-radius: 5px;
 }
 
-.pesan-menu:active {
+.pesan-buku:active {
   position: relative;
   top: 7px;
   box-shadow: none;
