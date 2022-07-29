@@ -214,6 +214,92 @@
   transition: all 0.5s;
 }
 
+/* Katalog */
+.katalog {
+  height: 850px;
+  background-color: white;
+  text-align: center;
+}
+
+.heading-katalog {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #5f5d60;
+}
+
+.text-katalog {
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+
+.sub-text-katalog {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.konten-katalog {
+  display: inline-block;
+  width: 20%;
+  height: 660px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.konten-katalog:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.konten-katalog img {
+  padding: 20px 0;
+  width: 90%;
+  max-height: 450px;
+  object-fit: cover;
+}
+
+.deskripsi-menu {
+  padding: 2px 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.deskripsi-menu h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.teks-deskripsi {
+  padding: 5px 5px 0 5px;
+  text-align: center;
+  text-align: center;
+  height: 90px;
+}
+
+.harga-buku {
+  font-family: 'Roboto', sans-serif;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+.pesan-buku {
+  color: white;
+  background-color: #2ec4b6;
+  padding: 6px 12px;
+  box-shadow: 0 7px #229287;
+  cursor: pointer;
+  font-size: 20;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.pesan-buku:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
 /* Langganan */
 
 .subscontainer h2 {

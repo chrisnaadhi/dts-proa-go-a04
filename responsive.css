@@ -36,6 +36,31 @@
     font-size: 5rem;
   }
 
+  /* Katalog */
+  .katalog {
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+  }
+
+  .konten-katalog {
+    width: 90%;
+    align-items: center;
+  }
+
+  .deskripsi-menu span {
+    width: 100%;
+  }
+
+  .sub-text-katalog {
+    font-size: 18px;
+  }
+
+  .pesan-buku {
+    width: auto;
+    padding: 5px 50px;
+  }
+
   /*
       FOOTER
       */
