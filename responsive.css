@@ -44,6 +44,15 @@
     font-size: 5rem;
   }
 
+  /* Sub-Content */
+  .heading-content h2 {
+    font-size: 34px;
+  }
+
+  .description-sub-content p {
+    font-size: 17px;
+  }
+
   /* Katalog */
   .katalog {
     width: 100%;
