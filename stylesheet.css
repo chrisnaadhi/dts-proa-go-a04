@@ -321,7 +321,7 @@ input {
 }
 
 .subscribe {
-  background-image: url(img/berita.jpg);
+  background-image: url(assets/img/berita.jpg);
   background-size: cover;
   margin-top: 15px;
 }
@@ -341,12 +341,6 @@ input {
   transform: scale(1);
 }
 
-hr {
-  width: 100px;
-  border: 2px solid #fff;
-  background-color: #fff;
-  margin-bottom: 70px;
-}
 
 input[type="text"] {
   border: 0px;
@@ -366,8 +360,8 @@ input[type="text"] {
 }
 
 ::placeholder {
-  color: white;
-  opacity: 0.8;
+  color: #373737;
+  opacity: 1;
 }
 
 /*
