@@ -127,7 +127,7 @@
 /* Main Content */
 
 .main-content {
-  background-image: url(img/hero.jpg);
+  background-image: url(assets/img/hero.jpg);
   background-position: center;
   background-size: cover;
   height: 45rem;
@@ -229,13 +229,13 @@
 
 .text-katalog {
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bolder;
 }
 
 .sub-text-katalog {
   font-size: 22px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .konten-katalog {
@@ -261,7 +261,7 @@
 
 .deskripsi-menu {
   padding: 2px 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
@@ -278,7 +278,7 @@
 }
 
 .harga-buku {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 15px 5px;
   text-align: center;
 }
