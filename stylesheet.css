@@ -375,7 +375,6 @@ input {
   transform: scale(1);
 }
 
-
 input[type="text"] {
   border: 0px;
   height: 35px;
@@ -401,10 +400,6 @@ input[type="text"] {
 /*
 CSS FOOTER
 */
-
-footer {
-  padding-top: 50px;
-}
 
 .container-footer {
   background-color: #2ec4b6ff;
